@@ -314,6 +314,7 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
                     countryISOCode: _selectedCountry['code'],
                     countryCode: '+${_selectedCountry['dial_code']}',
                     number: value,
+                    countryName: _selectedCountry['name']
                   ),
                 );
             },
@@ -324,6 +325,7 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
                     countryISOCode: _selectedCountry['code'],
                     countryCode: '+${_selectedCountry['dial_code']}',
                     number: value,
+                    countryName: _selectedCountry['name']
                   ),
                 );
             },
